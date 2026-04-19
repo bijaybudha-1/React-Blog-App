@@ -1,16 +1,55 @@
-# React + Vite
+# React Blog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack blog application built with React for the frontend and Appwrite as Backend-as-a-Service. This project includes authentication, blog management, rich text editing, and smooth client-side navigation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tech Stack
 
-## React Compiler
+- React
+- Redux Toolkit
+- React Router DOM
+- Appwrite
+- TinyMCE / tinymce-react
+- HTML React Parser
+- React Hook Form
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User Authentication (Signup / Login / Logout)
+- Create, Edit, and Delete Blog Posts
+- Rich Text Editor for writing blogs
+- Dynamic Routing with React Router
+- Global State Management using Redux Toolkit
+- Form Validation with React Hook Form
+- Render HTML content using HTML React Parser
+- Backend services with Appwrite
+- Responsive UI Design
+
+---
+
+## 📂 Folder Structure
+
+```bash
+BLOG/
+│── node_modules/
+│── public/
+│── src/
+│   │── appwrite/       # Appwrite service files
+│   │── assets/         # Images, icons, static files
+│   │── conf/           # Config files
+│   │── App.css
+│   │── App.jsx
+│   │── index.css
+│
+│── .env
+│── .env.sample
+│── .gitignore
+│── eslint.config.js
+│── index.html
+│── package-lock.json
+│── package.json
+│── README.md
+│── vite.config.jsg
